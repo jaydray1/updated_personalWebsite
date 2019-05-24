@@ -58,7 +58,7 @@ img {
   position: relative;
   height: 60vh;
   filter: grayscale(100%);
-  border: 2px solid red;
+  /* border: 2px solid red; */
 }
 
 .linkedin-button {
