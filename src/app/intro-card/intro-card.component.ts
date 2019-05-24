@@ -6,8 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./intro-card.component.css']
 })
 export class IntroCardComponent implements OnInit {
-  creepyText = 'Why is it creepy Kelli? ';
-  meCutout = ''
+  bannerName = 'jon-michael dreher';
+  mainImage = ''
 
 
   constructor() { }
