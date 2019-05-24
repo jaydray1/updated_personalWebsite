@@ -49,6 +49,14 @@ h1 {
 
 img {
   height: 60vh;
+  filter: grayscale(100%);
+}
+
+img:hover {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
 }
 
 h1 {
