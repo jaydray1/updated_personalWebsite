@@ -7,16 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class IntroCardComponent implements OnInit {
   bannerName = 'jon-michael dreher';
-  mainImage = ''
+  mainImage = 'https://s3-us-west-1.amazonaws.com/marmot-clone-start/me_cutout.png';
 
 
   constructor() { }
 
   ngOnInit() {
-  }
-
-  creepKelliOut() {
-    window.open('https://www.youtube.com/watch?v=JgV97eh64Uc');
   }
 
 }
